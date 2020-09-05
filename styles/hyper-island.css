@@ -1,0 +1,472 @@
+/* Made By https://mortnsn.com/ All Rights Reserved 2020 © */
+html{ line-height: inherit;}
+body{
+  margin:0;
+  padding:0;
+  width:100%;
+  height: auto;
+  font-family: "Poppins",sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+br::selection{background:transparent;}
+
+ 
+/* back */
+.back{
+  font-family: 'Montserrat', sans-serif;
+  top: 25px;
+  margin: 0;
+  margin-left: 20px;
+  position: fixed;
+  z-index: 4;
+  letter-spacing: -0.05em;
+}
+.back a{
+  text-decoration:none;
+  color: black;
+}
+.back-button p::selection {text-decoration:none;}
+
+.back-button{
+  top: 25px;
+  margin: auto;
+  position:sticky;
+  z-index:4;  
+  display: flex;
+}
+.back-button p{
+  text-transform: uppercase;
+  margin: 0; 
+  padding: 0; 
+  font-weight: 600;
+  font-size: 14px;
+}
+.back-button2{
+  width: 95px;
+  color: #565656;
+  transition:0.2s all ease-in-out;
+}
+.back-button2:hover{
+  opacity:0.4;
+  cursor: pointer;
+}
+.back svg{
+  top: 0px;
+  position:absolute;
+}
+.back-button3{
+  width: 148px;
+  margin: 0;
+}
+/* back */
+
+
+/*intro*/
+.intro{
+  display:flex;
+  height:100vh;
+  width:100%;
+  margin-bottom:40vh;
+  background:#FF3D3D;
+}
+.intro-image{
+  width:100%;
+  max-width:1500px;
+  height:100vh;
+  margin:auto;
+  background-image:url('../../www.mortnsn.com/projects/hyperisland/Banner-og-res22.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:35% 50%;
+}
+.intro-text{
+  width:100%;
+  height:100vh;
+  position:absolute;
+  
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.intro-text p::selection {text-decoration: none;}
+.intro-hyperisland p::selection{color:transparent; -webkit-text-stroke: 1.5px white;}    
+.intro-line::selection {text-decoration: none;}
+.line-date::selection {text-decoration: none;}
+
+.intro-text-box{
+  width:auto;
+  height:auto;
+  margin:auto;
+}
+.intro-mytimeat p{
+  margin:0;
+  font-size:30px;
+  color:white;
+}
+.intro-hyperisland p{
+  margin:0;
+  font-size:130px;
+  font-weight:700;
+  line-height:0.9em;
+  color:white;
+}
+ 
+
+.intro-line{
+  width:auto;
+  display:flex;
+  align-items:center;
+}
+.line{
+  margin:0;
+  padding:0;
+  height:0;
+  width:80%;
+  border:1px white solid;
+}
+.line-date{
+  padding-left:10px;
+  font-size:14px;
+  color:white;
+  font-weight: 500;
+}
+/*intro*/
+
+
+/*NAME A FEW*/
+.name-a-few{
+  width:80%;
+  max-width:1100px;
+  height:auto;
+ 
+  margin:auto;
+  display:flex;
+  align-items:center;
+  margin-bottom:40vh;
+}
+.name-a-few p{
+  margin:0;
+  font-size:80px;
+  font-weight:700;
+  line-height:1.2em;
+  color:#FF3D3D;
+}
+
+
+#naming{color: transparent; font-weight:700; -webkit-text-stroke: 1.6px #F44336;}
+#naming::selection{color:transparent;-webkit-text-stroke: 1.5px black;}
+
+.name-a-few p::selection {color:black;}
+#name-a-few-last::selection{color:black;}
+/*NAME A FEW*/
+
+/*AT HYPER ISLAND*/
+.hyper-island{
+  width:80%;
+  max-width:950px;
+  margin:auto;
+  margin-bottom:40vh;
+ 
+}
+.hyper-island p{
+  margin:0;
+  font-size: 110px;
+  font-weight:600;
+  line-height:1.2em;
+  color:#FF3D3D;
+
+}
+.hyper-island-text{
+  max-width: 800px;
+  display:flex;
+  align-items:center;
+  height:auto;
+  margin-top: 100px; 
+}
+
+.hyper-island-text p{
+  font-size: 21px;
+  font-weight: 400;
+  line-height:inherit;
+  color: #929292;
+
+}
+
+
+
+
+#hyper-island-last {color: transparent; font-weight:700;-webkit-text-stroke: 1.6px #F44336;}
+.hyper-island p::selection{color:black;-webkit-text-stroke: 0px;}
+#hyper-island-last::selection{color:transparent;-webkit-text-stroke: 1.6px black;}
+.hyper-island-text p::selection{color:white;background-color: #929292;}
+/*AT HYPER ISLAND*/
+
+
+/*PRESENTING*/
+.presenting{
+  margin:auto;
+  width:80%;
+  height:auto;
+  display:flex;
+  margin-bottom:40vh;
+}
+.presenting-text{
+  margin:auto;
+  width:40%;
+}
+
+.presenting-text p{
+  color:#FF3D3D;
+  font-size: 23px;
+  font-weight:400;
+}
+.presenting-image{
+  width:45%;
+  height:515px;
+  max-width: 700px;
+  min-width: 550px;
+  background:black;
+  background-image:url('../../www.mortnsn.com/projects/hyperisland/presenting.jpg');
+  background-size:cover;
+}
+.presenting-text p::selection{color:white;background-color: #929292;}
+/*PRESENTING*/
+
+
+/*GIF*/
+.gif{
+  width:100%;
+  height:100vh;
+  background:red;
+  margin-bottom:20vh;
+  
+  background-image:url('../../www.mortnsn.com/projects/hyperisland/team-2.gif');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:50% 50%;
+}
+/*GIF*/
+
+
+/*HOW WE WORK*/
+.how-we-work{
+  width:80%;
+  max-width:1000px;
+  margin:auto;
+  margin-bottom:40vh;
+}
+.how-we-work p{
+  font-size: 21px;
+  font-weight: 400;
+  line-height: inherit;
+  color: #929292;
+}
+.how-we-work p::selection{color:white;background-color: #929292;}
+/*HOW WE WORK*/
+
+/*PICTURES*/
+.pictures{
+  width:100%;
+  height: auto;
+  margin-bottom:40vh;
+  display: flex;
+  flex-direction: column;
+}
+.pictures img{
+  width:45vw;
+  margin:0px;
+}
+
+.picture-1{ 
+  margin-left: 5vw;
+}
+.picture-2{ margin-top: -19vw;}
+.picture-2 img{float: right;}
+
+.picture-3{
+  margin-top: -2vw;
+  margin-left: 10vw;
+}
+.picture-3 img{width: 41vw;}
+
+.picture-4{
+  margin-top: -25vw;
+  width: 91vw;
+}
+.picture-4 img{float: right;}
+
+.picture-5{
+  margin-left: 2vw;
+  margin-top: -32vw;
+}
+.picture-5 img{width: 50vw;}
+
+.picture-6{
+  margin: auto;
+  margin-top: 2vw;
+}
+.picture-6 img{width: 50vw;}
+
+.picture-7{
+  margin:auto;
+  margin-right: 10vw;
+  margin-top: -1vw;
+}
+.picture-7 img{
+  width: 50vw;
+  z-index: -1;
+}
+.picture-8{
+  margin: auto;
+  margin-top: -17vw;
+  margin-left: 4vw;
+  z-index: -2;
+}
+.picture-8 img{
+  width: 38vw;
+  float: right;
+}
+.picture-9{
+  margin: auto;
+  margin-top: -5vw;
+  margin-right: 3vw;
+}
+.picture-9 img{ width: 62vw;}
+/*PICTURES*/
+
+ 
+
+
+/*SOME PROJECTS*/
+.projects{
+  width:90%;
+  max-width:1000px;
+  margin:auto;
+  margin-bottom:20vh;
+
+}
+.projects p{
+  margin:0;
+  font-size: 110px;
+  font-weight:700;  
+  line-height:1.2em;
+  color: transparent; 
+  -webkit-text-stroke: 1.6px #F44336;
+  margin-bottom: 20vh;
+}
+.projects p::selection{color:transparent; -webkit-text-stroke: 1.6px black;}
+.projects img{width:100%;margin-bottom:-8px;}
+/*SOME PROJECTS*/
+
+
+
+/*FOOTER*/
+
+.footer{
+  width: 100%;
+  height:200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-connect{
+  color: #c7c7c7;
+  font-size: 12px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.footer-box{
+  width:50%;
+  max-width: 200px;
+  height:40px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-box img{
+  width: 23px;
+  height: 23px;
+  -webkit-backface-visibility: inherit; 
+  -ms-transform: inherit;
+  -webkit-transform: inherit;  
+  transform: inherit;
+  transform: 0.2s all ease-in-out;
+}
+.footer-box img:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+/*FOOTER*/
+
+@media only screen and (max-width: 1200px) {
+ 
+.presenting{
+  margin:auto;
+  width:80%;
+  flex-direction: column;
+  margin-bottom:40vh;
+}
+.presenting-text{
+  margin:auto;
+  width:80%;
+
+  order: 2;
+}
+.presenting-image{
+  width:100%;
+  min-width: 100%;
+  max-width: 100%;
+  height:515px;
+  order: 1;
+  margin: auto;
+  margin-bottom: 40vh;
+
+}
+
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+ 
+.name-a-few p {font-size: 6vw;}
+.hyper-island p{font-size: 6vw;}
+.hyper-island-text p {font-size: 2vw;}
+.how-we-work p {font-size: 2vw;}
+
+.projects p{font-size: 6vw;}
+}
+
+@media only screen and (max-width: 800px) {
+.back{display:none;}
+
+.intro-mytimeat p{font-size:20px;}
+.intro-hyperisland p{font-size:100px;}
+.line{width:75%;}
+.line-date{font-size:14px;}
+
+#naming{-webkit-text-stroke: 0.8px #F44336;}
+#naming::selection{color:transparent;-webkit-text-stroke: 0.8px black;}
+
+#hyper-island-last{color:transparent;-webkit-text-stroke: 0.8px #F44336;}
+#hyper-island-last::selection{color:transparent;-webkit-text-stroke: 0.8px black;}
+.hyper-island p{font-size: 10vw;}
+.hyper-island-text p {font-size: 3.5vw;}
+
+.presenting{width: 100%;}
+.presenting-text{width: 85%;}
+.presenting-text p{font-size: 4vw;}
+
+.how-we-work p {font-size: 3.5vw;}
+
+.projects p{font-size: 10vw; -webkit-text-stroke: 0.8px #F44336;}
+.projects p::selection{color:transparent; -webkit-text-stroke: 0.8px black;}
+
+.projects img{width: 100%;}
+}
+
+
+
+
+
+/* Made By https://mortnsn.com/ All Rights Reserved 2020 © */

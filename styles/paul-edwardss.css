@@ -1,0 +1,490 @@
+/* Made By https://mortnsn.com/ All Rights Reserved 2020 © */
+html{ line-height: inherit;}
+body{
+  margin:0;
+  padding:0;
+  width:100%;
+  background:white; 
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+br::selection{background:transparent;}
+/* back */
+.back{
+  top: 25px;
+  margin: 0;
+  margin-left: 20px;
+  position: fixed;
+  z-index: 4;
+  letter-spacing: -0.05em;
+}
+.back a{
+  text-decoration:none;
+  color: black;
+}
+.back-button p::selection {text-decoration:none;}
+.back-button{
+  top: 25px;
+  margin: auto;
+  position:sticky;
+  z-index:4;  
+  display: flex;
+}
+.back-button p{
+  text-transform: uppercase;
+  margin: 0; 
+  padding: 0; 
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.back-button2{
+  width: 95px;
+  color: #565656;
+  transition:0.2s all ease-in-out;
+}
+.back-button2:hover{
+  opacity:0.4;
+  cursor: pointer;
+}
+.back svg{
+  top: 0px;
+  position:absolute;
+}
+.back-button3{
+  width: 148px;
+  margin: 0;
+}
+/* back */
+
+
+.content{
+  font-family: "Poppins",sans-serif;
+  background: #ffffff;
+  -webkit-overflow-scrolling: auto;
+  opacity: 1;
+}
+img{
+  -webkit-backface-visibility: hidden;
+  -ms-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.content p::selection{color:white;background-color: #929292;}
+#title::selection{color:white;background-color:black;}
+img::selection{text-decoration: none;}
+a::selection{text-decoration: none;}
+/*BANNER*/
+.start-page{
+  position: relative;
+  padding-top: 70px;
+  overflow: hidden;
+  width: 100%;
+
+}
+.start-page img{width:100%;}
+.photo-box{width:50%;}
+/*BANNER*/
+
+
+
+/*INFORMATION*/
+.text-1{
+  -webkit-overflow-scrolling: auto;
+  position: relative;
+  margin: auto;
+  margin-top: 10%;
+  width: 90%;
+  max-width: 1300px;
+  display:flex;
+  justify-content:space-between;
+}
+.text-1-box{
+  margin:auto;
+  width: 100%;}
+.text-1-box p{
+  font-weight:400;
+  font-size:14px;
+  color: #333333;
+  margin:0;
+}
+.box-1{
+  position:relative;
+  width:100%;
+  max-width: 1000px;
+  display:flex;
+  margin: auto;
+}
+#box-1-title{
+  font-weight: 700;
+  color: #333333;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.box1-sub-1{
+  width: 50%;
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.role{
+  display: flex;
+  flex-direction: row;
+}
+.link{
+  display: flex;
+  flex-direction: row;
+}
+.link a{
+  text-decoration: none;
+  color: #797979;
+  font-size:14px;
+  border-bottom: 1px #797979 solid;
+}
+.link a:hover{
+  color:black;
+  border-bottom: 1px black solid;
+}
+.date{
+  display: flex;
+  flex-direction: row;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+
+}
+.box-2{
+  margin-top: 150px;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+.box1-sub-2{
+  width: 50%;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/*INFORMATION*/
+
+
+
+/*PROJECT DESCRIPTION*/
+.project-description{
+  position: relative;
+  margin: auto;
+  margin-top: 35vh;
+  margin-bottom: 35vh; 
+  width: 90%;
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-description-box{
+  width: 100%;
+  margin: auto;
+  max-width: 1000px; 
+}
+
+.project-description-box p{
+  font-weight: 400;
+  font-size: 17px;
+  color: #494949;
+  margin: 0;
+}
+.project-description-content{
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+/*PROJECT DESCRIPTION*/
+
+
+
+/* UI */
+.ui{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  margin-bottom: 200px;
+}
+.ui p{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 25px;
+  max-width: 1000px;
+}
+
+.ui img{
+  width: 100%;
+  margin-bottom: -4px;
+  margin:auto;
+  max-width: 1300px;
+}
+
+.ui-images{
+  width: 100%;
+  background-color: #4c4c4c;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+
+}
+/* UI */
+
+
+/* WIREFRAMES & MOCK UPS */
+.mobile{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+.mobile p{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 25px;
+  max-width: 1000px;
+}
+.mobile img{
+  margin: auto;
+  max-width: 1300px;
+  width: 100%;
+}
+/* WIREFRAMES & MOCK UPS */
+
+
+/* RESPONSIVE DESGIN */
+.responsive-design{
+  position: relative;
+  width: 90%;
+  max-width: 1300px; 
+  margin: auto;
+  margin-top: 20%; 
+  margin-bottom: 20%;
+
+  display:flex;
+  justify-content:space-between; 
+}
+.responsive-design-box{
+  width: 100%;
+  margin: auto;
+  max-width: 1000px; 
+}
+.responsive-design-box p{
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #333333;
+  margin:0;
+}
+.responsive-design-content{
+  position:relative;
+  width:100%;
+  max-width: 700px;
+}
+/* RESPONSIVE DESGIN */
+
+
+
+/*TRANSITIONS*/
+.transitions{    
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+ 
+}
+.transitions img{
+  width: 20%;
+  margin: auto;
+  border-radius: 20px;
+  border: 3px #ffffff solid;
+  box-shadow: 0px 10px 30px rgb(134, 134, 134);
+}
+.transitions p{}
+.transitions-gif{
+  width: 100%;
+  height: 54vw;
+  max-height: 700px;
+  display: flex;
+  align-items: center;
+  background: url(../projects/pauledwardss/LINES.jpg);
+  background-size: 100%;
+}
+/*TRANSITIONS*/
+
+
+
+
+
+/*TRANSITIONS*/
+.text-2{
+  position: relative;
+  width: 90%;
+  max-width: 1300px; 
+  margin: auto;
+  margin-top: 20%; 
+  margin-bottom: 5%;
+
+  display:flex;
+  justify-content:space-between; 
+}
+.text-2-box{
+  width: 100%;
+  margin: auto;
+  max-width: 1000px; 
+}
+.text-2-box p{
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #333333;
+  margin:0;
+}
+.text-2-content{
+  position:relative;
+  width:100%;
+  max-width: 700px;
+}
+#title{
+  font-size: 25px; 
+  font-weight:700; 
+  color: #333333;
+}
+/*TRANSITIONS*/
+
+
+/*OPTIMIZE*/
+.optimize{
+  position: relative;
+  width: 90%;
+  max-width: 1300px; 
+  margin: auto;
+  margin-top: 20%; 
+  margin-bottom: 20%;
+
+  display:flex;
+  justify-content:space-between; 
+}
+.optimize-box{
+  width: 100%;
+  margin: auto;
+  max-width: 1000px; 
+}
+.optimize-box p{
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #333333;
+  margin:0;
+}
+.optimize-content{
+  position:relative;
+  width:100%;
+  max-width: 700px;
+}
+ 
+/*OPTIMIZE*/
+
+
+
+/*FOOTER*/
+
+.footer{
+  width: 100%;
+  height:200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-connect{
+  color: #c7c7c7;
+  font-size: 12px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.footer-box{
+  width:50%;
+  max-width: 200px;
+  height:40px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-box img{
+  width: 23px;
+  height: 23px;
+  -webkit-backface-visibility: inherit; 
+  -ms-transform: inherit;
+  -webkit-transform: inherit;  
+  transform: inherit;
+  transform: 0.2s all ease-in-out;
+}
+.footer-box img:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+/*FOOTER*/
+
+
+
+
+/* RESPONSIVE */
+ 
+@media only screen and (max-width: 800px) {
+.back{display:none;}
+.transitions img {
+  border: 1.5px #ffffff solid;
+  border-radius: 10px;
+}
+.project-description{
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+
+}
+@media only screen and (max-width: 750px) {
+.box1-sub-2{height: 145px;} 
+.transitions-gif{
+  height: 100vh;
+  max-height: inherit;
+}
+.transitions img {
+  width: 45%;
+  border-radius: 20px;
+}
+
+}
+@media only screen and (max-width: 600px) { 
+.box-1 {flex-direction: column;}
+.box1-sub-1{width: 100%;}
+.box1-sub-2 {
+  width: 100%;
+  height: 110px;
+  margin-top: 20px;
+}
+.transitions-gif{
+  height: 100vh;
+  max-height: inherit;
+}
+.transitions img {
+  width: 60%;
+  border-radius: 20px;
+}
+#title{font-size: 30px;}
+.about{margin-top: 35px;}
+
+}
+/* RESPONSIVE */
+/* Made By https://mortnsn.com/ All Rights Reserved 2020 © */
